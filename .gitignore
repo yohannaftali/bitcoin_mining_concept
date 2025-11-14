@@ -1,0 +1,9 @@
+# Ignore runtime session snapshots and logs
+src/backend/log/session_status.json
+src/backend/log/stratum.log
+
+# Ignore compiled object files
+*.o
+
+# Ignore __pycache__
+__pycache__/

@@ -1,0 +1,14 @@
+{
+  "address": "public-pool.io",
+  "port": "21496",
+  "btc_address": "bc1qug6j3j2et4q02padn85edu7xlk0scrf8ue2h9d",
+  "procs": "4",
+  "core": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

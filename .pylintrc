@@ -1,0 +1,15 @@
+# .pylintrc - project-local pylint configuration
+# This minimal config disables the "broad-except" warning (W0703) so
+# code in this educational project may catch general Exception where
+# necessary for robustness or debugging.
+
+[MASTER]
+# Disable broad-except (W0703), missing function/method docstring (C0116), missing class docstring (C0115), and line-too-long (C0301).
+# This allows catching general Exception and omitting docstrings in this educational prototype project.
+disable=W0703,C0116,C0115,C0301
+
+[FORMAT]
+# Ignore line-too-long (C0301) by setting max line length to a high value
+max-line-length=200
+
+# You can extend this file with other pylint options as needed.
